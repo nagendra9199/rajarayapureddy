@@ -1,0 +1,152 @@
+body{
+    font-family:Lato;
+}
+
+.main-header-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 3px rgb(182, 182, 182);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    padding: 1vw;
+}
+.logo-container{
+    width: 30%;
+}
+.navbar-container{
+    display: flex;
+}
+.navbar-container a{
+    text-decoration: none;
+    margin-right: 3vw;
+}
+.navbar-container p{
+    font-size: 1.5vw;
+    color: black;
+}
+.home-screen-main-container{
+    width: 100%;
+}
+.home-screen-container{
+    background-image: url("images/homemain.svg");
+    background-size: cover;
+    height: 50vw;
+    position: relative;
+    width: 100%;
+}
+.main-image{
+    height: 37vw;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    z-index: 5;
+}
+
+.content-main-container{
+    width: 50%;
+    margin-left: 3vw;
+}
+.content-main-container h1{
+    color: rgba(39, 38, 38, 1);
+    padding-top: 10vw;
+    font-size: 4vw;
+}
+.paragraph-background-container{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 3vw;
+    padding: 1vw;
+    display: flex;
+}
+.paragraph-background-container p{
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+}
+.red-line{
+    background-color: rgba(255, 0, 0, 1);
+    width: 2vw;
+    border-radius: 1vw;
+    height: 8vw;
+    margin: 1vw;
+    margin-top: 2.5vw;
+}
+.readmore-button-container a{
+    font-size: 1.8vw;
+    border: none;
+    border-radius: 1vw;
+    padding: 1.2vw;
+    background-color: rgba(215, 0, 0, 1);
+    color: white;
+    text-decoration: none;
+}
+.shape1{
+    position: absolute;
+    height: 30vw;
+    bottom: -10%;
+    right: 0;
+}
+.shape2{
+    position: absolute;
+    height: 33vw;
+    bottom: -35%;
+    right: 0%;
+}
+.readmore-button-container{
+    margin-top: 3vw;
+    margin-left: 0.3vw;
+}
+.logo-image{
+    height: 6vw;
+    border-radius: 10vw;
+}
+.title{
+    font-size: 1.5vw;
+    background-image: linear-gradient(to right, #ffc400, #694f08, #bb0b0bd5);
+    background-size: 200% 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: gradientMove 5s infinite linear;
+    font-family:Alkatra;
+}
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 200% 50%;
+    }
+}
+.logo-title-container{
+    display: flex;
+    justify-content: space-around;
+}
+.logo-container{
+    width: 35%;
+}
+.about-us-main-container{
+    background-color: #e7e7e7;
+    position: relative;
+    height: 50vw;
+}
+.aboutus-image{
+    width: 40%;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    box-shadow: 1px 1px 10px;
+}
+.content-paragraph{
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+}
+.content-aboutus{
+    width: 60%;
+    background-color: white;
+    padding: 1vw;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
